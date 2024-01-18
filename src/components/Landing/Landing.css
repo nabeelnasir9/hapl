@@ -1,0 +1,49 @@
+/* Landing.css */
+
+.landing {
+    width: 100%;
+    position: relative;
+  }
+  .video{
+    width: 100%;
+    
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 40%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+  }
+  
+  .text-overlay .Landing-title {
+    font-size: 4em;
+    margin-bottom: 0.1em;
+  }
+  
+  .text-overlay .landing-text {
+    font-size: 4em;
+  }
+
+ 
+  
+  .carousel-text {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  /* Mobile Styles */
+  @media screen and (max-width: 768px) {
+    .text-overlay .Landing-title {
+        font-size: 1em;
+        margin-bottom: 0.1em;
+      }
+      
+      .text-overlay .landing-text {
+        font-size: 1em;
+      }
+  }
+  
+  
