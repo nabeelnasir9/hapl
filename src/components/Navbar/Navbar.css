@@ -92,8 +92,9 @@
     .navbar-menu.open {
         display: flex;
     background-color: #ffffffd4;
-    border-radius: 50px;
-    margin-top: 8px;
+    border-radius: 0px;
+    margin-top: 0px;
+    transition: all ease-in 5s;
     }
 
     .hamburger {
@@ -105,7 +106,7 @@
     }
     .quote-button{
         padding: 13px 20px;
-    background-color: #ffb703;
+    background-color: #cb2000;
     color: #fff;
     border: none;
     border-radius: 10px;

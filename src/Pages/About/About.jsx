@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import { NavLink } from "react-router-dom";
 import "./About.css";
-import map from '../../assets/map.png';
+import map from "../../assets/map.png";
 
 const About = () => {
   return (
@@ -65,10 +65,46 @@ const About = () => {
               </span>
             </NavLink>
           </div>
-          <img src={map} style={{width:'100%', height:'auto'}}/>
+          <img
+            src={map}
+            style={{ width: "100%", height: "auto", marginTop: "40px", marginBottom:'30px' }}
+          />
+          <div className="About-exp">
+            <div className="about-exp-head">
+                About <span style={{borderBottom:'3px solid #cb2000'}}>GBL CHIMICA:</span>
+            </div>
+            <div className="about-exp-para">
+              <span style={{fontWeight:'bold'}}>GBL CHIMICA </span>stands at the forefront of the chemical industry,
+              specializing in the bespoke production of specialty chemical
+              auxiliaries. Our mission is clear: to furnish our clientele with
+              products of unparalleled quality. Our expansive operations are
+              strategically situated across two key locations in Italy and
+              Turkey, each facility boasting state-of-the-art in-house
+              laboratories and production units. This setup allows us to engage
+              in rigorous experimentation and production of an extensive range
+              of chemical auxiliaries. Our expertise spans across multiple
+              sectors, including leather, textile, water treatment, and pulp and
+              paper industries. At <span style={{fontWeight:'bold'}}> GBL CHIMICA</span>, innovation is at the core of our
+              business. We are not just a company; we are a hub of innovation
+              and excellence, relentlessly pushing the boundaries of whats
+              possible in the realm of chemical auxiliaries. Our commitment to
+              excellence is matched by our dedication to our customers, ensuring
+              that each product we deliver adheres to the highest standards of
+              quality and performance. Our global footprint is a testament to
+              our commitment and expertise. GBL CHIMICA is proudly associated
+              with leading manufacturing industries worldwide, bringing advanced
+              chemical treatment technologies and an extensive range of
+              technical services to the table. Our team of experts is dedicated
+              to solving complex industrial applications in chemical
+              auxiliaries, ensuring that we remain at the cutting edge of
+              industry developments and continue to deliver solutions that not
+              only meet but exceed our customers expectations. At GBL CHIMICA,
+              we are more than just a chemical company - we are your trusted
+              partner in innovation, quality, and service.
+            </div>
+          </div>
         </div>
       </div>
-      
     </div>
   );
 };
