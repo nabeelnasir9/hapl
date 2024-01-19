@@ -1,5 +1,6 @@
 import "./Contact.css";
 import GetIn from "../../assets/get.png";
+// import MapComponent from "./MapComponent";
 // import { useRef } from "react";
 // import emailjs from "@emailjs/browser";
 // import { toast } from "react-toastify";
@@ -94,6 +95,7 @@ const Contact = () => {
         </div>
         <div className="unique-image-section">
           <img src={GetIn} alt="Descriptive Alt Text" />
+          {/* <MapComponent/> */}
         </div>
       </div>
     </div>

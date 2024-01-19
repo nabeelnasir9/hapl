@@ -70,9 +70,11 @@ s
             >
                 Contact
             </Link>
+            <NavLink to="/products" style={{whiteSpace:'nowrap'}}>
           <button className="quote-button">
             Products Catalog
           </button>
+          </NavLink>
         </div>
 
         <div

@@ -1,4 +1,4 @@
-import Contact from './Pages/Contact/Contact';
+// import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
@@ -14,16 +14,12 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="/products" element={<Product />} />
           <Route path="/service" element={<Service />} />
 
         </Routes>
-        {/* <Contact/> */}
-        {/* <Footer /> */}
       </div>
     </BrowserRouter>
-      <Contact/>
       <Footer />
       </>
 

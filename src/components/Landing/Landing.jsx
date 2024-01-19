@@ -12,10 +12,11 @@ const Landing = () => {
         controls={false}
         src={videoPlaceholder}
         type="video/mp4"
+        className='video'
       ></video>
       <div className="text-overlay">
-        <h1 className='Landing-title'>Your Text Here</h1>
-        <p className='landing-text'>Any additional information or description can go here.</p>
+        <h1 className='Landing-title'>Pioneering Special Chemical Solutions</h1>
+        <p className='landing-text'>Your Gateway to Premium Chemical Auxiliaries and Unmatched Technical Expertise in Italy and Turkey.</p>
       </div>
     </div>
   );

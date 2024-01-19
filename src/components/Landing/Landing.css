@@ -3,15 +3,19 @@
 .landing {
     width: 100%;
     position: relative;
+    /* filter: grayscale(); */
+
   }
   .video{
     width: 100%;
+    filter: grayscale();
+    filter: contrast(0.5);
     
   }
 
   .text-overlay {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left:40%;
     transform: translate(-50%, -50%);
     text-align: left;
