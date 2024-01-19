@@ -1,5 +1,5 @@
 import "./Footer.css";
-import Logo from "../../assets/log.png";
+import Logo from "../../assets/gbl.png";
 import {SlLocationPin  } from 'react-icons/sl';
 import { HiMail } from "react-icons/hi";
 import { FiPhoneCall } from "react-icons/fi";

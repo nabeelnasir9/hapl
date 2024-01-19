@@ -84,7 +84,7 @@ const About = () => {
               in rigorous experimentation and production of an extensive range
               of chemical auxiliaries. Our expertise spans across multiple
               sectors, including leather, textile, water treatment, and pulp and
-              paper industries. At <span style={{fontWeight:'bold'}}> GBL CHIMICA</span>, innovation is at the core of our
+              paper industries.<br></br><br></br> At <span style={{fontWeight:'bold'}}> GBL CHIMICA</span>, innovation is at the core of our
               business. We are not just a company; we are a hub of innovation
               and excellence, relentlessly pushing the boundaries of whats
               possible in the realm of chemical auxiliaries. Our commitment to
