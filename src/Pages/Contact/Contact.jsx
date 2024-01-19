@@ -42,9 +42,9 @@ const Contact = () => {
             Contact Us
           </h2>
           <h3>
-            Customise your own engineering team of{" "}
+            For any queries or information{" "}
             <span style={{ color: "#01923f" }}>
-              software engineers and start work in 24 hours!
+              please contact our support team!
             </span>
           </h3>
           <form id="unique-contact-form">
