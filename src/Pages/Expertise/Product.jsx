@@ -20,7 +20,7 @@ const Product = () => {
   return (
     <div className="product-container">
       <div className="header-banner">
-        Product
+        Our Listed Product
       </div>
       <div className="product-images">
         {products.map(product => (

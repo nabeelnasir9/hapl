@@ -4,7 +4,7 @@
   }
   
   .header-banner {
-    background-color: #01923f;
+    background-color: #000;
     color: white;
     padding-top: 80px;
     padding-left: 50px;
@@ -86,7 +86,7 @@
   
   @media screen and (max-width:786px){
     .header-banner {
-      background-color: #01923f;
+      background-color: #000;
       color: white;
       padding-top: 50px;
       padding-left: 50px;
