@@ -1,20 +1,19 @@
 /* Navbar.css */
 
 .navbar {
-    position: fixed;
-    top: 10px;
+    position: relative;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
-    border-radius: 50px;
+    padding: 10px 100px;
     background-color: #fff;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
     height: 85px;
     gap: 130px;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     z-index: 100;
 }
 
@@ -102,6 +101,7 @@
     }
     .navbar{
         height: 90px;
+        padding: 10px 10px;
     }
     .quote-button{
         padding: 13px 20px;
