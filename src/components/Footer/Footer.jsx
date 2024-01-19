@@ -1,6 +1,6 @@
 import "./Footer.css";
 import Logo from "../../assets/gbl.png";
-import {SlLocationPin  } from 'react-icons/sl';
+import { SlLocationPin } from "react-icons/sl";
 import { HiMail } from "react-icons/hi";
 import { FiPhoneCall } from "react-icons/fi";
 
@@ -11,10 +11,11 @@ const Footer = () => {
         <div className="footer_content_1">
           <img src={Logo} alt="" className="footer_logo" />
           <p className="footer_logo_content">
-            <span className="quotes">&quot;</span>Our extensive research and development along with hands-on
-            experience with the latest innovations grant you a solution that is
-            perfectly fit for your use case. We have mastered the art of writing
-            serverless applications.<span className="quotes">&quot;</span>
+            <span className="quotes">&quot;</span>GBL CHIMICA attached with
+            worldwide manufacturing industries providing advanced chemical
+            treatment technologies and extensive technical service to solve
+            industrial applications in chemicals auxiliaries.
+            <span className="quotes">&quot;</span>
           </p>
         </div>
         <div className="footer_content_2">
@@ -35,7 +36,7 @@ const Footer = () => {
           <div className="footer_contact_1">
             <h1 className="footer_content_2_head_1">Reach Us</h1>
             <div className="footer_content_Reach_1">
-              <HiMail className="icon__footer" color="#fff"/>
+              <HiMail className="icon__footer" color="#fff" />
               <p className="footer_content_content_1">info@gblchimica.com</p>
             </div>
             <div className="footer_content_Reach_1">
@@ -45,21 +46,17 @@ const Footer = () => {
             <div className="footer_content_Reach_1">
               <SlLocationPin className="icon__footer" color="#fff" />
               <p className="footer_content_content_1">
-              Venezia, Nizzolina (Va)-Italy
+                Venezia, Nizzolina (Va)-Italy
               </p>
             </div>
             <div className="footer_content_Reach_1">
               <SlLocationPin className="icon__footer" color="#fff" />
-              <p className="footer_content_content_1">
-              Aliaga,Izmir-Turkey
-              </p>
+              <p className="footer_content_content_1">Aliaga,Izmir-Turkey</p>
             </div>
           </div>
         </div>
       </div>
-      <div>
-     
-    </div>
+      <div></div>
     </div>
   );
 };
