@@ -1,13 +1,13 @@
 import Landing from "../../components/Landing/Landing"
 import About from "../About/About"
-import Contact from "../Contact/Contact"
+// import Contact from "../Contact/Contact"
 
 const Home = () => {
   return (
     <div>
         <Landing/>
         <About/>
-        <Contact/>
+        {/* <Contact/> */}
     </div>
   )
 }

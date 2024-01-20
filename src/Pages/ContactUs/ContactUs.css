@@ -1,0 +1,119 @@
+/*  */
+
+
+.contactus-container {
+    /* position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 5%; */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.contactus-form-container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.contactus-header, 
+.contactus-subheader {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+
+.contactus-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactus-input-name, 
+.contactus-input-email, 
+.contactus-input-phone, 
+.contactus-input-service, 
+.contactus-input-message, 
+.contactus-send-button {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #cb2000;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contactus-input-name:hover,
+.contactus-input-email:hover,
+.contactus-input-phone:hover,
+.contactus-input-service:hover,
+.contactus-input-message:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactus-send-button {
+    background-color: #cb2000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contactus-send-button:hover {
+    background-color: #fff;
+    color: #cb2000;
+    border: 3px solid #cb2000;
+}
+
+.contactus-image-container {
+    flex: 0.6;
+    padding: 20px;
+}
+
+.contactus-image {
+    max-width: 100%;
+    border-radius: 10px;
+    /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); */
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .contactus-container {
+        flex-direction: column;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .contactus-form-container, 
+    .contactus-image-container {
+        flex: 100%;
+    }
+}
+
+label {
+    display: block;
+    color: #000;  
+    font-weight: 600;
+}
+
+.contactus-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* adjusted gap to account for label spacing */
+}

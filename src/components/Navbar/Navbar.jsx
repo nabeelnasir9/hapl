@@ -57,8 +57,8 @@ const Navbar = () => {
             Products
           </NavLink>
 
-            <Link
-                to="contact-section"
+            <NavLink
+                to="/contact"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -69,7 +69,7 @@ s
 
             >
                 Contact
-            </Link>
+            </NavLink>
             <NavLink to="/products" style={{whiteSpace:'nowrap'}}>
           <button className="quote-button">
             Products Catalog
