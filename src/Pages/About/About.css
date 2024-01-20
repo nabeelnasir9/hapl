@@ -188,7 +188,7 @@
 
   @media (max-width: 768px) {
     .Home-container {
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
     .home-container-below,
@@ -261,12 +261,12 @@
   justify-content: center; /* Add this line to center the flex items */
 }
 
-.ExpertiseStart_heading{
+/* .ExpertiseStart_heading{
   font-size: 50px;
   text-align: center;
   color: white;
   margin: 70px 0;
-}
+} */
 
 .card {
   flex: 0 0 calc(30% - 30px);
@@ -366,10 +366,10 @@
   .card {
       flex: 0 0 100%; /* This will ensure one card takes the full width on mobile */
   }
-  .ExpertiseStart_heading{
+  /* .ExpertiseStart_heading{
       font-size: 35px;
       text-align: center;
       color: white;
       margin: 50px 0;
-  }
+  } */
 }

@@ -15,7 +15,7 @@ const Landing = () => {
         className='video'
       ></video>
       <div className="text-overlay">
-        <h1 className='Landing-title'>Pioneering Special Chemical Solutions</h1>
+        <h1 className='Landing-title'><span style={{borderBottom:'5px solid #cb2000'}}>Pioneering Special Chemical Solutions</span></h1>
         <p className='landing-text'>Your Gateway to Premium Chemical Auxiliaries and Unmatched Technical Expertise in Italy and Turkey.</p>
       </div>
     </div>

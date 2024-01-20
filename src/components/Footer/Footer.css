@@ -108,8 +108,8 @@
 
     .footer_wrapper {
 
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
         padding: 100px 40px;
     }
 

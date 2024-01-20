@@ -40,8 +40,8 @@ const Navbar = () => {
             >
                 About
             </Link>
-            <Link
-                to="expertise-section"
+            {/* <NavLink
+                to="/service"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -51,8 +51,8 @@ const Navbar = () => {
 
 
             >
-                Expertise
-            </Link>
+                Service
+            </NavLink> */}
             <NavLink to="/products" style={{textDecoration:'none', color:'black'}} className={({ isActive }) => isActive ? 'activeLink' : ''}>
             Products
           </NavLink>
@@ -74,6 +74,10 @@ s
           <button className="quote-button">
             Products Catalog
           </button>
+         
+          {/* <button className="quote-button" >
+            Get Information
+          </button> */}
           </NavLink>
         </div>
 

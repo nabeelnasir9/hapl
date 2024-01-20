@@ -22,11 +22,11 @@ const Footer = () => {
           <h1 className="footer_content_2_head_1">Company</h1>
           <p className="footer_content_2_para_1">Home</p>
           <p className="footer_content_2_para_1">About</p>
-          <p className="footer_content_2_para_1">Expertise</p>
+          <p className="footer_content_2_para_1">Products</p>
           <p className="footer_content_2_para_1">Contact Us</p>
         </div>
         <div className="footer_content_3">
-          <h1 className="footer_content_2_head_1">Support</h1>
+          <h1 className="footer_content_2_head_1">Privacy</h1>
           <p className="footer_content_2_para_1">Help</p>
           <p className="footer_content_2_para_1">Terms of service</p>
           <p className="footer_content_2_para_1">Legal</p>
